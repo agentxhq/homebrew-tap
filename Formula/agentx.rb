@@ -7,7 +7,7 @@
 class Agentx < Formula
   desc "AgentX multi-agent host daemon"
   homepage "https://www.agentxhq.com/"
-  version "0.89.1"
+  version "0.91.0"
   license "Proprietary"
 
   livecheck do
@@ -16,12 +16,12 @@ class Agentx < Formula
 
   on_macos do
     on_arm do
-      url "https://app.agentxhq.io/releases/agentx-0.89.1-darwin-arm64.tar.gz"
-      sha256 "9e7c9f5eaf8fcf433e8788978ca378877f171f5e25d60dc600d2a9c4917a8cde"
+      url "https://app.agentxhq.io/releases/agentx-0.91.0-darwin-arm64.tar.gz"
+      sha256 "d2251398a2b841dffcabbce74ec469378aebde8db45c0a21d308d5def35b9bfc"
     end
     on_intel do
-      url "https://app.agentxhq.io/releases/agentx-0.89.1-darwin-amd64.tar.gz"
-      sha256 "c6bb69f5f2585dd10d27e8fec7c1460f400f9bd401cf669880e52b07e27f1d4f"
+      url "https://app.agentxhq.io/releases/agentx-0.91.0-darwin-amd64.tar.gz"
+      sha256 "5c40189ab767bf03d710d3c91fb720f2c524d1bd783e683e80abf71f75df63d2"
     end
   end
 
